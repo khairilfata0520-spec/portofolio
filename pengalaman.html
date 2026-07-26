@@ -28,6 +28,16 @@
                         <a href="index.html" class=" text-slate-600 hover:text-amber-800 transition">Home</a><a href="tentang.html" class=" text-slate-600 hover:text-amber-800 transition">Tentang</a><a href="pengalaman.html" class=" text-amber-800 font-semibold hover:text-amber-800 transition">Pengalaman</a><a href="keahlian.html" class=" text-slate-600 hover:text-amber-800 transition">Keahlian</a><a href="kontak.html" class=" text-slate-600 hover:text-amber-800 transition">Kontak</a>
                     </div>
                 </div>
+                <div class="md:hidden">
+                    <button id="menu-btn" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" class="text-slate-700 hover:text-amber-800 focus:outline-none p-2" aria-label="Buka menu">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden border-t border-slate-100 bg-white">
+            <div class="px-4 py-3 space-y-1">
+                <a href="index.html" class="block px-3 py-2 rounded-lg text-slate-600 hover:text-amber-800 hover:bg-slate-50 transition">Home</a><a href="tentang.html" class="block px-3 py-2 rounded-lg text-slate-600 hover:text-amber-800 hover:bg-slate-50 transition">Tentang</a><a href="pengalaman.html" class="block px-3 py-2 rounded-lg text-amber-800 font-semibold bg-amber-50">Pengalaman</a><a href="keahlian.html" class="block px-3 py-2 rounded-lg text-slate-600 hover:text-amber-800 hover:bg-slate-50 transition">Keahlian</a><a href="kontak.html" class="block px-3 py-2 rounded-lg text-slate-600 hover:text-amber-800 hover:bg-slate-50 transition">Kontak</a>
             </div>
         </div>
     </nav>
